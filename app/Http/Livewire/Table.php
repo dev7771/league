@@ -29,7 +29,6 @@ class Table extends Component
 
 		$this->count = 1;
 
-
 		$weeks		 = MatchWeek::orderBy('id', 'desc')->get();
 		$currentWeek = $weeks->first();
 

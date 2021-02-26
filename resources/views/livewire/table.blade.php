@@ -5,7 +5,7 @@
 
 	<div class="row" >
 
-		<select wire:model="weekId" wire:select="changeWeek" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+		<select wire:model="currentWeek"  class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
 		  <option selected>Select week</option>
 		   @foreach($weeks as $week)
 			  <option value="{{$week->id}}">{{$week->name}}</option>
